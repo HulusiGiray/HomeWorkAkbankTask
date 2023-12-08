@@ -12,13 +12,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="styles.css">
     <title>AkbankTask</title>
+    
     <style>
-        .deneme{
+    * {
+    box-sizing: border-box;
+    }
+
+    .deneme {
             display: flex;
             align-items: center;
-            justify-content: space-between;  
+            justify-content: space-between;
         }
     </style>
 </head>
@@ -30,8 +34,7 @@
         </div>
 
         <div class="dropdown">
-            <button type="button" class="btn btn-secondary text-black dropdown-toggle" data-bs-toggle="dropdown">Hulusi
-                Giray GUZEL</button>
+            <button type="button" class="btn btn-secondary text-black dropdown-toggle" data-bs-toggle="dropdown">Hulusi Giray GUZEL</button>
             <div class="dropdown-menu bg-secondary">
                 <a class="dropdown-item text-black" href="#">Profile</a>
                 <a class="dropdown-item text-black" href="#">All Offers</a>
@@ -41,37 +44,49 @@
         </div>
     </div>
 
-    <div class="deneme" style="background-color: red;">
+    <div class="deneme" style="background-color:rgb(246, 35, 35);">
         <div class="ms-3">
             <img src="../HomeWorkAkbankTask/assets/akbanklogo.png">
-        </div >
+        </div>
         <div class="me-3">
-            <a class="text-white text-decoration-none" href="#">All Offers</a>
+            <a class="text-white text-decoration-none me-2" href="#">All Offers</a>
         </div>
     </div>
 
     <div class="container-fluid">
-            <section class="deneme my-5" style="justify-content:space-between;">
+        <section class="deneme p-5 ms-1" style="justify-content:space-around;">
             <div><!-- chapter1 , part1 -->
-                <div class="border">
+                <div class="border ms-2" style="width: 498px;">
                     <a class="h4 text-decoration-none p-5 m-5"><i class="bi bi-briefcase"></i>ISB-001 KAYSERI AKKISLA</a>
-                    <div class="border m-2 text-secondary" style="height: 64px;">Appraisal Fee<small class="text-muted">300.000TL</small></div>
-                    <div class="border m-2 text-secondary" style="height: 64px;">Starting Price<small class="text-muted">310.000TL</small></div>
-                    <div class="border m-2 text-secondary" style="height: 64px;">Highest Bid<a>330.000TL</a></div>
-                    <div class="border m-2 text-secondary" style="height: 64px;">Last Bid Date<a>17.03.2022<br>18.00</a>
+                    <div class="border m-2 text-secondary deneme" style="height: 64px;">
+                        Appraisal Fee
+                        <small class="text-muted">300.000TL</small>
+                    
+                    </div>
+                    <div class="border m-2 text-secondary deneme" style="height: 64px;"> &ensp;Starting Price<small class="text-muted">310.000TL &ensp;</small></div>
+                    <div class="border m-2 text-secondary deneme" style="height: 64px;">Highest Bid<a>330.000TL</a></div>
+                    <div class="border m-2 text-secondary deneme" style="height: 64px;">
+                        Last Bid Date
+                        <div style="text-align: center;">
+                            <a>17.03.2022
+                                <br>
+                                18.00</a>
+                        </div>  
                     </div>
                 </div>
             </div>
 
-            <div><!-- chapter1 , part2 -->
-                <div>
-                    <i class="bi bi-house text-danger ms-5"></i><br>
-                     <small class="text-danger text-decoration-none ms-1">Real Estate Detail</small>
+            <div style="margin-left: 34px;"><!-- chapter1 , part2 -->
+                <div class="col">
+                    <div class="m-5">
+                        <i class="bi bi-house text-danger ms-5"></i><br>
+                        <small class="text-danger text-decoration-none ms-1">Real Estate Detail</small>
+                    </div>
                 </div>
             </div>
 
             <div><!-- chapter1 , part3 -->
-                <table class="table table-bordered table-hover table-light">
+                <table class="table table-bordered table-hover table-light" style="width: 413px;">
                     <thead>
                         <tr style="text-align: center">
                             <th scope="col">İncoming Offers</th>
@@ -132,65 +147,19 @@
             </div>
         </section>
 
-        <section class="deneme my-5" style="justify-content:space-between;"> 
-            <div><!-- chapter2 , part1 -->
-                <div class="border my-5">
-                    <a class="h4 text-decoration-none p-5 m-5"><i class="bi bi-briefcase"></i>ISB-002 ANKARA MAMAK</a>
-                    <div class="border m-2 text-secondary" style="height: 64px;">Appraisal Fee <small class="text-muted"> 150.000TL</small></div>
-                    <div class="border m-2 text-secondary" style="height: 64px;">Starting Price <small class="text-muted"> 160.000TL</small></div>
-                    <div class="border m-2 text-secondary" style="height: 64px;">Highest Bid <a> 170.000TL</a></div>
-                    <div class="border m-2 text-secondary text-danger" style="height: 64px;">Last Bid Date<a>17.03.2022<br>18.00</a></div>
+        <section class="deneme p-5 ms-1" style="justify-content:space-around;">
+            <div><!-- chapter1 , part1 -->
+                <div class="border ms-2" style="width: 498px;">
+                    <a class="h4 text-decoration-none p-5 m-5"><i class="bi bi-briefcase"></i>ISB-001 KAYSERI AKKISLA</a>
+                    <div class="border m-2 text-secondary" style="height: 64px;">Appraisal Fee<small class="text-muted">300.000TL</small></div>
+                    <div class="border m-2 text-secondary" style="height: 64px;">Starting Price<small class="text-muted">310.000TL</small></div>
+                    <div class="border m-2 text-secondary" style="height: 64px;">Highest Bid<a>330.000TL</a></div>
+                    <div class="border m-2 text-secondary" style="height: 64px;">Last Bid Date<a>17.03.2022<br>18.00</a>
+                    </div>
                 </div>
             </div>
 
-            <div><!-- chapter2 , part2 -->
-                <div class="m-5">
-                    <i class="bi bi-house text-danger ms-5"></i><br>
-                    <small class="text-danger text-decoration-none ms-1">Real Estate Detail</small>
-                </div>
-            </div>
-
-
-            <div><!-- chapter2 , part3 -->
-                <table class="table table-bordered table-hover table-light" style="width: 412px;">
-                    <thead>
-                        <tr style="text-align: center">
-                            <th scope="col">İncoming Offers</th>
-                            <th scope="col">Telephone</th>
-                            <th scope="col">Sitution</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td scope="row" style="text-align: center">Kazım EMRE AKARSU</td>
-                            <td>(555)5439988</td>
-                            <td>
-                                <div class="dropdown text-danger">
-                                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"></button>
-                                    <div class="dropdown-menu">
-                                        <li><a class="dropdown-item text-danger" href="#">The deed will be done</a></li>
-                                        <li><a class="dropdown-item text-danger" href="#">The deed will not be done</a></li>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </tbody>
-            </div>
-        </section>
-
-        <section class="deneme my-5">
-            <div><!-- chapter3 , part1 -->
-                <div class="border my-5">
-                    <a class="h4 text-decoration-none p-5 m-5"><i class="bi bi-briefcase"></i>ISB-003 İZMİR KONAK</a>
-                    <div class="border m-2 text-secondary" style="height: 64px;">Appraisal Fee <small class="text-muted"> 2.000TL</small></div>
-                    <div class="border m-2 text-secondary" style="height: 64px;">Starting Price <small class="text-muted"> 2.100TL</small></div>
-                    <div class="border m-2 text-secondary text-danger" style="height: 64px;">Last Bid Date<a>10.03.2022<br>18.00</a></div>
-                </div>
-            </div>
-
-            <div><!-- chapter3 , part2 -->
+            <div style="margin-left: 34px;"><!-- chapter1 , part2 -->
                 <div class="col">
                     <div class="m-5">
                         <i class="bi bi-house text-danger ms-5"></i><br>
@@ -199,8 +168,8 @@
                 </div>
             </div>
 
-            <div><!-- chapter3 , part3 -->
-                <table class="table table-bordered table-hover table-light" style="width: 412px;">
+            <div><!-- chapter1 , part3 -->
+                <table class="table table-bordered table-hover table-light" style="width: 413px;">
                     <thead>
                         <tr style="text-align: center">
                             <th scope="col">İncoming Offers</th>
@@ -211,26 +180,140 @@
 
                     <tbody>
                         <tr>
-                            <td scope="row" style="text-align: center">Kazım EMRE AKARSU</td>
+                            <td scope="row" style="text-align: center">Ahmet Yılmaz SAYGINER</td>
                             <td>(555)5439988</td>
                             <td>
+                                <a>Current Offer</a>
                                 <div class="dropdown text-danger">
                                     <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"></button>
                                     <div class="dropdown-menu">
-                                        <li><a class="dropdown-item text-danger" href="#">The deed will be done</a></li>
-                                        <li><a class="dropdown-item text-danger" href="#">The deed will not be done</a></li>
+                                        <li><a class="dropdown-item text-danger" href="#">310.000TL</a></li>
+                                        <li><a class="dropdown-item text-danger" href="#">320.000TL</a></li>
+                                        <li><a class="dropdown-item text-danger" href="#">330.000TL</a></li>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td scope="row" style="text-align: center">Mustafa YEŞİLDAĞ</td>
+                            <td>(555)5439988</td>
+                            <td>
+                                <a>Current Offer</a>
+                                <div class="dropdown text-danger">
+                                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"></button>
+                                    <div class="dropdown-menu">
+                                        <li><a class="dropdown-item text-danger" href="#">310.000TL</a></li>
+                                        <li><a class="dropdown-item text-danger" href="#">320.000TL</a></li>
+                                        <li><a class="dropdown-item text-danger" href="#">330.000TL</a></li>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" style="text-align: center">Yakup ELMAS</td>
+                            <td>(555)5439988</td>
+                            <td>
+                                <a>Current Offer</a>
+                                <div class="dropdown text-danger">
+                                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"></button>
+                                    <div class="dropdown-menu">
+                                        <li><a class="dropdown-item text-danger" href="#">310.000TL</a></li>
+                                        <li><a class="dropdown-item text-danger" href="#">320.000TL</a></li>
+                                        <li><a class="dropdown-item text-danger" href="#">330.000TL</a></li>
                                     </div>
                                 </div>
                             </td>
                         </tr>
                     </tbody>
-                </tbody>
+                </table>
             </div>
         </section>
+        <section class="deneme p-5 ms-1" style="justify-content:space-around;">
+            <div><!-- chapter1 , part1 -->
+                <div class="border ms-2" style="width: 498px;">
+                    <a class="h4 text-decoration-none p-5 m-5"><i class="bi bi-briefcase"></i>ISB-001 KAYSERI AKKISLA</a>
+                    <div class="border m-2 text-secondary" style="height: 64px;">Appraisal Fee<small class="text-muted">300.000TL</small></div>
+                    <div class="border m-2 text-secondary" style="height: 64px;">Starting Price<small class="text-muted">310.000TL</small></div>
+                    <div class="border m-2 text-secondary" style="height: 64px;">Highest Bid<a>330.000TL</a></div>
+                    <div class="border m-2 text-secondary" style="height: 64px;">Last Bid Date<a>17.03.2022<br>18.00</a>
+                    </div>
+                </div>
+            </div>
 
+            <div style="margin-left: 34px;"><!-- chapter1 , part2 -->
+                <div class="col">
+                    <div class="m-5">
+                        <i class="bi bi-house text-danger ms-5"></i><br>
+                        <small class="text-danger text-decoration-none ms-1">Real Estate Detail</small>
+                    </div>
+                </div>
+            </div>
 
+            <div><!-- chapter1 , part3 -->
+                <table class="table table-bordered table-hover table-light" style="width: 413px;">
+                    <thead>
+                        <tr style="text-align: center">
+                            <th scope="col">İncoming Offers</th>
+                            <th scope="col">Telephone</th>
+                            <th scope="col">Sitution</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td scope="row" style="text-align: center">Ahmet Yılmaz SAYGINER</td>
+                            <td>(555)5439988</td>
+                            <td>
+                                <a>Current Offer</a>
+                                <div class="dropdown text-danger">
+                                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"></button>
+                                    <div class="dropdown-menu">
+                                        <li><a class="dropdown-item text-danger" href="#">310.000TL</a></li>
+                                        <li><a class="dropdown-item text-danger" href="#">320.000TL</a></li>
+                                        <li><a class="dropdown-item text-danger" href="#">330.000TL</a></li>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td scope="row" style="text-align: center">Mustafa YEŞİLDAĞ</td>
+                            <td>(555)5439988</td>
+                            <td>
+                                <a>Current Offer</a>
+                                <div class="dropdown text-danger">
+                                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"></button>
+                                    <div class="dropdown-menu">
+                                        <li><a class="dropdown-item text-danger" href="#">310.000TL</a></li>
+                                        <li><a class="dropdown-item text-danger" href="#">320.000TL</a></li>
+                                        <li><a class="dropdown-item text-danger" href="#">330.000TL</a></li>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" style="text-align: center">Yakup ELMAS</td>
+                            <td>(555)5439988</td>
+                            <td>
+                                <a>Current Offer</a>
+                                <div class="dropdown text-danger">
+                                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"></button>
+                                    <div class="dropdown-menu">
+                                        <li><a class="dropdown-item text-danger" href="#">310.000TL</a></li>
+                                        <li><a class="dropdown-item text-danger" href="#">320.000TL</a></li>
+                                        <li><a class="dropdown-item text-danger" href="#">330.000TL</a></li>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
     </div>
 
+    <div style="height: 100px;"></div>
 </body>
 
 </html>
